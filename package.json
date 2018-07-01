@@ -1,7 +1,11 @@
 {
   "name": "material_testas",
-  "version": "1",
+  "version": "0.0.1",
+  "main": "index.js",
   "description": "Naudotos instrukcijos https://material.io/develop/web/docs/getting-started/",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
   "devDependencies": {
     "css-loader": "^0.28.11",
     "extract-loader": "^2.0.1",
